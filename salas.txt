@@ -1,0 +1,25 @@
+Auditorio Central: Aaron Swartz
+
+Cafetería: Alan Turing
+
+Aula 7: Nikola Tesla
+
+Aula 6: Satoshi Nakamoto
+
+Aula 5: Linux Torvalds
+
+Aula 4: Bill Joy
+
+Aula 3: Richard Stallman
+
+Aula 2: Ada Lovelace
+
+Agora 1: Linda Hamilton
+
+Agora 2: Grace Hooper
+
+Install Party: Ian Murdock
+
+CTF: George Hotz
+
+
