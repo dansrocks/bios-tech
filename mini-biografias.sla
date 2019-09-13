@@ -20,8 +20,8 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="Abyssinica SIL Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Abyssinica SIL Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="0" LEVEL="0" NAME="Fondo" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="0" mirrorH="0" mirrorV="0" useICC="0" doGCR="1" doClip="0" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="5.58443510312551e-309" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
         <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="15" Intent="1" Intent2="0" SolidP="ACEScg-elle-V4-g10.icc" ImageP="ACEScg-elle-V4-g10.icc" PrintP="Artifex CMYK SWOP Profile" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
@@ -304,7 +304,7 @@
             <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Es conocido por ser el cofundador de la Standford University Network (SUN Microsystems)."/>
             <para LINESP="25"/>
             <para LINESP="25"/>
-            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="También se le considera uno de los pionero del desarrollo del software por su trabajo en BSD -el sistema Unix de Berkeley-  y hay quien asegura que programó todo su núcleo en un fin de semana."/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="También se le considera uno de los pioneros del desarrollo del software por su trabajo en BSD -el sistema Unix de Berkeley-  y hay quien asegura que programó todo su núcleo en un fin de semana."/>
             <trail LINESP="25"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -602,7 +602,15 @@
             <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Directora de la División de Ingeniería de Software del Laboratorio de Instrumentación del MIT y responsables deT"/>
             <para LINESP="25"/>
             <para LINESP="25"/>
-            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Fue pionera en el desarrolló el software de navegación &quot;on-board&quot; para el Programa Espacial Apolo. Incluyó un nuevo sistema de excepciones y carga asincrónica de tareas que jugó un papel crucial momentos antes del alunizaje de la misión Apolo 11 y permitió el éxito de la misión."/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Fue pionera en el desarrolló el software de navegación"/>
+            <breakline/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="&quot;on-board&quot; para el Programa Espacial Apolo. Incluyó un"/>
+            <breakline/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="nuevo sistema de excepciones y carga asincrónica de tareas"/>
+            <breakline/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="que jugó un papel crucial momentos antes del alunizaje de"/>
+            <breakline/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="la misión Apolo 11 y permitió el éxito de la misión."/>
             <para LINESP="25"/>
             <para LINESP="25"/>
             <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="También acuño el término «ingeniería de software» para distinguir entre el trabajo de hardware y otras"/>
@@ -648,11 +656,15 @@
             <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Imperio austriaco, 10/jul/1856 - Nueva York, 7/ene/1943 "/>
             <para LINESP="25"/>
             <para LINESP="25"/>
-            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Inventor, ingeniero mecánico, ingeniero eléctrico y físico, y se le considera una de las figuras más influyentes en la historia de la ciencia y la tecnología"/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Inventor, ingeniero mecánico, ingeniero eléctrico y físico,"/>
+            <breakline/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="y se le considera una de las figuras más influyentes en la historia de la ciencia y la tecnología"/>
             <ITEXT CH="."/>
             <para LINESP="25"/>
             <para LINESP="25"/>
-            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Es conocido por sus numerosas invenciones en el campo del electromagnetismo, desarrolladas entre finales del siglo XIX y principios del siglo XX, y también por su enfrentamiento permanente con Edison."/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Es conocido por sus numerosas invenciones en el campo del electromagnetismo, desarrolladas entre finales del siglo XIX"/>
+            <breakline/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="y principios del siglo XX, y también por su enfrentamiento permanente con Edison."/>
             <para LINESP="25"/>
             <para LINESP="25"/>
             <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Su trabajo teórico ha ayudado a forjar las bases de los sistemas modernos para el uso de la energía eléctrica por corriente alterna y posibilito el mundo que conocemos."/>
@@ -696,9 +708,13 @@
             <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Richard Matthew Stallman. Nueva York, 16 de marzo de 1953."/>
             <para LINESP="25"/>
             <para LINESP="25"/>
-            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Programador estadounidense y fundador del movimiento del software libre. Sus logros destacados como programador incluye la realización de GNU Emacs,"/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Programador estadounidense y fundador del movimiento del software libre. Sus logros destacados como programador"/>
+            <breakline/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="incluye la realización de GNU Emacs,"/>
             <zwspace/>
-            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH=" el compilador GCC, el depurador GDB y GNU Make. Todos bajo el Proyecto GNU."/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH=" el compilador GCC,"/>
+            <breakline/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="el depurador GDB y GNU Make. Todos bajo el Proyecto GNU."/>
             <para LINESP="25"/>
             <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH=" "/>
             <para LINESP="25"/>
@@ -747,10 +763,13 @@
             <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Satoshi Nakamoto (nacido en ¿Japón?):"/>
             <para LINESP="25"/>
             <para LINESP="25"/>
-            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Tras este nombre se esconde el inventor del Bitcoin (criptomoneda lanzada en el año 2008). Aún no se conoce la verdadera identidad de este mítico creador, especulandose incluso que puede tratarse de varias personas. "/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Tras este nombre se esconde el inventor del Bitcoin (criptomoneda lanzada en el año 2009). Aún no se conoce"/>
+            <breakline/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="la verdadera identidad de este mítico creador, especulándose incluso que puede tratarse de varias personas. "/>
             <para LINESP="25"/>
             <para LINESP="25"/>
-            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Es también autor del libro blanco del Bitcoin “A Peer-to-Peer Electronic Cash System”, así como responsable de crear el foro Bitcointalk, una plataforma para que los entusiastas de la criptomoneda recopilen y compartan ideas.."/>
+            <ITEXT FONT="Hack Bold" FONTSIZE="24" FEATURES="inherit smallcaps" FCOLOR="White" SCALEH="100" CH="Es también autor del libro blanco del Bitcoin “A Peer-to-Peer Electronic Cash System”, así como responsable de crear el foro Bitcointalk, una plataforma para que los entusiastas de la criptomoneda recopilen y compartan ideas"/>
+            <ITEXT CH="."/>
             <para LINESP="25"/>
             <para/>
             <PageItemAttributes/>
